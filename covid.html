@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="fond.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Galérie d'Images</title>
+</head>
+<body class="p-3 m-0 border-0 bd-example" data-bs-theme="dark"></body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mon site perso</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Mon site perso</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-center justify-content-end flex-grow-1 pe-3 ">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="project.html">Mes projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <div class="card text-center">
+                <img src="/assets/Capture d’écran, le 2023-11-12 à 16.20.39.png" class="card-img-top w-100" alt="Image 1">
+                <div class="card-body">
+                    <p class="card-text text-sm">Organigramme test covid</p>
+                    <a href="/assets/Capture d’écran, le 2023-11-12 à 16.20.39.png" class="btn btn-primary stretched-link " data-bs-toggle="modal" data-bs-target="#modalImage1">Cliquer ici</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card text-center">
+                
+                <video width="382" height="358" controls>
+                 <source src="/assets/video_sans_son.mp4" type=video/mp4>
+                  </video>
+                <div class="card-body">
+                    <p class="card-text">pokedex </p>
+                    <a href="/assets/video_sans_son.mp4" class="btn btn-primary stretched-link " data-bs-toggle="modal" data-bs-target="#modalImage1">Cliquer ici</a>
+                </div>
+            </div>
+        </div>
+        
+       
+    </div>
+</div>
+
+
+<div class="modal fade" id="modalImage1" tabindex="-1" aria-labelledby="modalImage1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalImage1Label">Image 1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="chemin_de_l_image1.jpg" class="img-fluid" alt="Image 1 en plus grand">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalImage2" tabindex="-1" aria-labelledby="modalImage2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalImage2Label">Image 2</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="chemin_de_l_image2.jpg" class="img-fluid" alt="Image 2 en plus grand">
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3 class="text-center text-light">Dans ce projet les technologies que j'ai utilisées sont le HTML et le JavaScript</h3>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
